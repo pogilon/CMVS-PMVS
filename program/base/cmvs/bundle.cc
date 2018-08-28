@@ -1428,9 +1428,9 @@ void Cbundle::writeCameraCenters(void) {
           << "property float x" << endl
           << "property float y" << endl
           << "property float z" << endl
-          << "property uchar diffuse_red" << endl
-          << "property uchar diffuse_green" << endl
-          << "property uchar diffuse_blue" << endl
+          << "property uchar red" << endl
+          << "property uchar green" << endl
+          << "property uchar blue" << endl
           << "end_header" << endl;
     for (int c = 0; c < m_cnum; ++c) {
       ofstr << m_pss.m_photos[c].m_center[0] << ' '
