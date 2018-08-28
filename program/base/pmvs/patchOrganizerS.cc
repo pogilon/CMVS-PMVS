@@ -705,9 +705,9 @@ void CpatchOrganizerS::writePLY(const std::vector<Ppatch>& patches,
        << "property float nx" << '\n'
        << "property float ny" << '\n'
        << "property float nz" << '\n'
-       << "property uchar diffuse_red" << '\n'
-       << "property uchar diffuse_green" << '\n'
-       << "property uchar diffuse_blue" << '\n'
+       << "property uchar red" << '\n'
+       << "property uchar green" << '\n'
+       << "property uchar blue" << '\n'
        << "end_header" << '\n';
 
   vector<Ppatch>::const_iterator bpatch = patches.begin();
@@ -795,9 +795,9 @@ void CpatchOrganizerS::writePLY(const std::vector<Ppatch>& patches,
        << "property float nx" << '\n'
        << "property float ny" << '\n'
        << "property float nz" << '\n'
-       << "property uchar diffuse_red" << '\n'
-       << "property uchar diffuse_green" << '\n'
-       << "property uchar diffuse_blue" << '\n'
+       << "property uchar red" << '\n'
+       << "property uchar green" << '\n'
+       << "property uchar blue" << '\n'
        << "end_header" << '\n';
 
   vector<Ppatch>::const_iterator bpatch = patches.begin();
